@@ -1,0 +1,24 @@
+Assignment 2 -
+A)
+Weather App :-
+API: https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}
+weather api - https://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=18cf6f6db3f6b1396a1b5c97f250b64e&units=metric
+Scope:
+- Learn how to fetch dynamic API data using a query parameter (city name).
+- Practice loading state & error handling (Loading..., City not found).
+- Render dynamic UI (temperature, condition, icon).
+Practice: Understand conditional rendering in React.
+B)
+Random Joke Generator :-
+API: https://official-joke-api.appspot.com/random_joke
+Scope:
+- Fetch random data on mount.
+- Add a button to re-fetch (new joke on demand).
+- Manage loading & error states.
+C)
+Blog App with Dynamic Routes:-
+Home Page (/) → Show a list of blog posts (dummy JSON data). Each blog should have a title and "View Details" button.
+Blog Details Page (/blog/:id) → Show details of a single blog post based on the id from useParams.
+Author Page (/author/:authorId) → Show all posts written by a specific author using useParams.
+Add query params for sorting blogs (?sort=asc or ?sort=desc).
+Handle invalid routes gracefully with a Not Found page
