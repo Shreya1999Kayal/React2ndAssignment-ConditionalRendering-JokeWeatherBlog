@@ -22,3 +22,7 @@ Blog Details Page (/blog/:id) → Show details of a single blog post based on th
 Author Page (/author/:authorId) → Show all posts written by a specific author using useParams.
 Add query params for sorting blogs (?sort=asc or ?sort=desc).
 Handle invalid routes gracefully with a Not Found page
+
+Vercel Link - https://react-2nd-assignment.vercel.app/
+
+GithubLink - https://github.com/Shreya1999Kayal/React2ndAssignment-ConditionalRendering-JokeWeatherBlog
